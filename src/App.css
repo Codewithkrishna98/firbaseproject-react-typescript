@@ -1,0 +1,85 @@
+#root {
+  
+  text-align: center;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(252, 252, 252);
+position: sticky;
+}
+.navbar{
+/* border: 2px solid rgb(206, 208, 211); */
+width: 100%;
+height: 70px;
+background-color: #0c293f!important;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+}
+.navbar .links {
+text-align: center;
+margin-right: 90px;
+
+}
+.links a {
+
+  color: white;
+ 
+  text-decoration: none;
+  padding-bottom: 2px;
+  margin: 7px;
+  padding: 3px 3px;
+}
+.navbar .user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.signout{
+border-radius: 5px;
+border:2px solid rgb(160, 148, 186)
+
+}
+
+.user p {
+
+font-size: 15px;
+margin-right: 10px;
+color: blanchedalmond;
+}
+.user img {
+
+  font-size: 14px;
+border-radius: 50%;
+
+}
+input,
+textarea{
+
+font-family: "Nunito", sans-serif;
+}
+.createpost {
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+
+}
+form{
+margin-top: 40px;
+padding:30px 20px;
+width: 200px;
+border-radius: 7px;
+background-color: #0c293f!important;
+backdrop-filter: blur(10px);
+overflow: hidden;
+box-shadow:0px 1px 9px 0px;
+}
+
